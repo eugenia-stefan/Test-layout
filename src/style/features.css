@@ -1,0 +1,12 @@
+/* .description-container {
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+} */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0px 360px;
+}

@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  height: 426px;
+  margin: 50px auto;
+  background: #ecf0f1;
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#container-title {
+  margin: 50px 50px 25px 50px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+  text-align: center;
+  color: #27ae60;
+}
+
+#container-text {
+  margin: 0 50px 14px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+
+.container-button {
+  width: 186px;
+  height: 40px;
+  left: 867px;
+  top: 2137px;
+
+  background: #1abc9c;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}

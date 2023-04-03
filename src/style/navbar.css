@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ecf0f1;
+}
+
+.logo-splash {
+  position: absolute;
+  width: 138px;
+  height: 40px;
+  left: 360px;
+  top: 20px;
+  background-image: url(D:\dev\test-layout\src\images\logo-splash-osim-rgb21.png);
+}
+
+.navbar-button {
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  left: 1440px;
+  top: 20px;
+  background-color: #1abc9c;
+  border-radius: 5px;
+  border-width: 0cm;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo-splash {
+    position: static;
+    margin: 10px;
+  }
+
+  .navbar-button {
+    position: static;
+    margin: 10px;
+  }
+}
