@@ -8,7 +8,7 @@ function Hero() {
       </div>
       <div className="presentation-box">
         <Title title="Bored to stay in traffic?" />
-        <div style={{ marginTop: "20px" }}>
+        <div style={{ marginTop: "20px", textAlign: "center" }}>
           <span id="text-box">Download the app</span>
         </div>
 

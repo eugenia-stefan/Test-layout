@@ -1,0 +1,46 @@
+.team-parent {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  justify-content: center;
+  grid-auto-flow: dense;
+  margin: 0px 360px 0px 360px;
+  padding: 50px;
+}
+
+.team-photo {
+  border-radius: 50%;
+}
+.team-title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+
+  text-align: center;
+
+  color: #2980b9;
+
+  margin: 10px 0;
+}
+.team-role {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #000000;
+}
+.team-describe {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}

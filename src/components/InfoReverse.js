@@ -5,8 +5,8 @@ function InfoReverse(props) {
   return (
     <div className="info-reverse">
       <div className="info-content">
-        <div id="info-title">{title}</div>
-        <div id="info-text">{text}</div>
+        <div id="info-title-reverse">{title}</div>
+        <div id="info-text-reverse">{text}</div>
       </div>
       <div className="info-picture">
         <img src={picture2} alt="info" />
